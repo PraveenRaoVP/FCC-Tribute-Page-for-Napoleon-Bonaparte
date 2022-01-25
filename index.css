@@ -1,0 +1,119 @@
+/*html*/
+html{
+   font-size: 10px;
+}
+/*body of the website: general*/
+body {
+  font-family: 'Helvetica Neue', sans-serif, Arial;
+  font-size: 1rem;
+  line-height: 1.3;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+}
+
+#complete-border{
+  border-style: solid;
+  border-radius: 1px;
+  border-color: gray;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+  margin: 20px 70px 5px 70px;
+}
+
+/*image related*/
+#img-div{
+    /*background: white;*/
+    padding: 10px;
+    margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption{
+  font-size: 1.4rem;
+}
+
+#img-caption{
+  margin: 15px 0 5px 0;
+}
+
+#image{
+    border-radius: 5%;
+    width: 400px;
+    height: auto;
+}
+
+/*Content related*/
+#title{
+  font-size: 3.5rem;
+  text-shadow:  0 1px 0 #000, 0 2px 0 #000,
+                0 3px 0 #ccc, 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc,
+                0 7px 0 #ccc, 0 8px 0 #ccc,
+                0 9px 0 #ccc, 0 10px 0 #ccc,
+                0 11px 0 #ccc, 0 12px 0 #ccc,
+                0 20px 30px rgba(0, 0, 0, 0);
+  font-style: italic;
+}
+
+p{
+  font-size: 2rem;
+}
+
+#Headline{
+  font-size: 1.9rem;
+}
+
+ul{
+  text-align: left;
+  font-size: 1.7rem;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+h2 {
+  font-style: bold;
+  font-size: 16px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  left: 25px;
+
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+cite{
+  font-size: 1.4rem;
+}
+
+#tribute-link {
+  font-style: italic;
+}
+
+#final-content {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+}
