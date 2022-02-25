@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'TributePageForNapoleonBonaparte'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9C1B300135C04EB0A1B2EA31C59760B9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9C8155699CD74AC2BF24C94B49B9D358 }}
           package: .
